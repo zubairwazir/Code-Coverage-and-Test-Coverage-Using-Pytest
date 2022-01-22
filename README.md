@@ -12,15 +12,15 @@ to run unittests
 if __name__ == "__main__":
         unittest.main()
         
-        
 ******************pytest****************pip install pytest        
-install pytest and just remove the if __name__ method and type pytest it will run all tests.
+
+install pytest and  remove the if __name__ above method  and type pytest to run all tests.
 
 pytest       -> run all the tests
 pytest -v    -> run all the tests with more details
 
+****************code coverage************ pip install coverage
 
-****************code coverage************pip install coverage
 coverage run app.py
 coverage report
 coverage report -m (implicit command for details)
@@ -30,9 +30,16 @@ to write coverage report to xml and html
 coverage xml
 coverage html
 
+****************test coverage************ pip install pytest-cov
 
-****************test coverage************pip install pytest-cov
-pytest --cov=app
-pytest -v --cov=app
-pytest -v --cov=app --cov-report=html
-pytest -v --cov=app --cov-report=xml
+`pytest --cov=src`
+`pytest -v --cov=src`
+`pytest -v --cov=src --cov-report=html`
+`pytest -v --cov=src --cov-report=xml`
+
+Test code and save reports to the selected directory
+
+`pytest --cov=src --cov-report=html:coverage-reports/htmlcov --cov-report=xml:coverage-reports/coverage.xml`
+
+************* Tests Paths**************
+sys.path.append("../")

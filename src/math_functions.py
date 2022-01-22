@@ -10,8 +10,10 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 
+# uncomment for code coverage by typing coverage run math_functions.py and then coverage report
+
 # fibonacci(1)
 # fibonacci(10)
-#
+
 # factorial(0)
 # factorial(1)
