@@ -1,9 +1,9 @@
 # Code Coverage and Test Coverage Using Pytest
 
-Step 1. Unittest
-Step 2. Pytest
-Step 3. Code Coverage
-Step 4. Test Coverage
+`Step 1. Unittest` \
+`Step 2. Pytest` \
+`Step 3. Code Coverage` \
+`Step 4. Test Coverage`
 
 ```
 *******************unittest*************
