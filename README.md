@@ -32,14 +32,14 @@ coverage html
 
 ****************test coverage************ pip install pytest-cov
 
-`pytest --cov=src`
-`pytest -v --cov=src`
-`pytest -v --cov=src --cov-report=html`
-`pytest -v --cov=src --cov-report=xml`
+pytest --cov=src
+pytest -v --cov=src
+pytest -v --cov=src --cov-report=html
+pytest -v --cov=src --cov-report=xml
 
 Test code and save reports to the selected directory
 
-`pytest --cov=src --cov-report=html:coverage-reports/htmlcov --cov-report=xml:coverage-reports/coverage.xml`
+pytest --cov=src --cov-report=html:coverage-reports/htmlcov --cov-report=xml:coverage-reports/coverage.xml
 
 ************* Tests Paths**************
 sys.path.append("../")
