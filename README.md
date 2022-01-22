@@ -42,4 +42,4 @@ Test code and save reports to the selected directory
 pytest --cov=src --cov-report=html:coverage-reports/htmlcov --cov-report=xml:coverage-reports/coverage.xml
 
 ************* Tests Paths**************
-sys.path.append("../")
+sys.path.append("../")  -> go one step back
