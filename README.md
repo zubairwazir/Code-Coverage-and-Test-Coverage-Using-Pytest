@@ -43,3 +43,4 @@ pytest --cov=src --cov-report=html:coverage-reports/htmlcov --cov-report=xml:cov
 
 ************* Tests Paths**************
 sys.path.append("../")  -> go one step back
+*******
