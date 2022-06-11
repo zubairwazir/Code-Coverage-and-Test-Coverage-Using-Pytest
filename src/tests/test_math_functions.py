@@ -3,6 +3,7 @@ import unittest
 from math_functions import fibonacci
 from math_functions import factorial
 
+
 class TestFibonacci(unittest.TestCase):
     def test_fibonacci_1(self):
         self.assertEqual(fibonacci(1), 1)
@@ -13,10 +14,10 @@ class TestFibonacci(unittest.TestCase):
     def test_fibonacci_3(self):
         self.assertEqual(fibonacci(30), 1346269)
 
+
 class TestFactorial(unittest.TestCase):
     def test_factorial(self):
         self.assertEqual(factorial(1), 1)
-
 
 # if __name__ == "__main__":
 #     unittest.main()
